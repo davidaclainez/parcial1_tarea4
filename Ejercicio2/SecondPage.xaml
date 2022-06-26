@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Información Recibida" FontSize="Large"/>
+            <Label Text="Nombre" />
+            <Label Text="{Binding Nombre}" FontSize="Large"/>
+            <Label Text="Apellidos"/>
+            <Label Text="{Binding Apellidos}"  FontSize="Large"/>
+            <Label Text="Edad"/>
+            <Label Text="{Binding Edad}" FontSize="Large"/>
+            <Label Text="Correo Electrónico"/>
+            <Label Text="{Binding Correo}" FontSize="Large"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
